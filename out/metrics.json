@@ -1,0 +1,62 @@
+{
+  "rmse": 73.22814715203921,
+  "cv_rmse": 0.49923654748320373,
+  "same_building_rmse": 27.76625462151773,
+  "same_building_cv_rmse": 0.3689288805452379,
+  "n_train": 79946,
+  "n_test": 8578,
+  "train_ids": [
+    "Rat_education_Abigail",
+    "Rat_education_Adrian",
+    "Rat_education_Alfonso",
+    "Rat_education_Alfred",
+    "Rat_education_Alonzo",
+    "Rat_education_Alyson",
+    "Rat_education_Angelica",
+    "Rat_education_Barbara",
+    "Rat_education_Barney",
+    "Rat_education_Beverly",
+    "Rat_education_Brett"
+  ],
+  "test_id": "Rat_education_Adell",
+  "same_building_debug_id": "Rat_education_Adrian",
+  "site_id": "Rat",
+  "primaryspaceusage": "Education",
+  "n_buildings": 12,
+  "features": [
+    "hour",
+    "dow",
+    "month",
+    "temp_c",
+    "sqm"
+  ],
+  "kwh_test_min": 16.95,
+  "kwh_test_max": 395.73,
+  "ablation": {
+    "weather+calendar+area": {
+      "rmse": 73.22814715203921,
+      "cv_rmse": 0.49923654748320373
+    },
+    "area_only": {
+      "rmse": 79.38792238854299,
+      "cv_rmse": 0.541231122546804
+    },
+    "hour_of_week_mean": {
+      "rmse": 75.8396138359316,
+      "cv_rmse": 0.5170403519195903
+    }
+  },
+  "results": {
+    "mae_kwh": 58.86,
+    "median_ape_pct": 38.9,
+    "hours_within_20pct": 23.9,
+    "typical_error_pct_of_load": 49.9,
+    "skill_vs_hour_of_week_pct": 3.4,
+    "skill_vs_area_only_pct": 7.8,
+    "holdout_penalty_pct": 35.3,
+    "train_cv_rmse": 0.993,
+    "test_cv_rmse": 0.499,
+    "overfit_gap_pct": -49.7
+  },
+  "illustrative": false
+}

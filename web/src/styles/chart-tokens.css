@@ -1,0 +1,14 @@
+/* Chart poles. Teal = same-meter / easy. Coral = held-out building / hard. Amber = model accent. */
+:root {
+  --chart-1: var(--good); /* same-building (easy) */
+  --chart-2: var(--bad); /* leave-one-building-out (hard) */
+  --chart-3: var(--accent);
+  --chart-4: var(--fg-low);
+  --chart-5: var(--amber);
+
+  --chart-background: var(--bg-sunk);
+  --chart-foreground: var(--fg-hi);
+  --chart-foreground-muted: var(--fg-low);
+  --chart-label: var(--fg-low);
+  --chart-grid: var(--line-hairline);
+}

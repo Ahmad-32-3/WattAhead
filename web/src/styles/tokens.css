@@ -1,0 +1,86 @@
+/* buildings: warm editorial, dark only. Accent is filament amber, not the CHB-MIT blue. */
+:root {
+  color-scheme: dark;
+
+  /* surfaces */
+  --bg-page: #14120e;
+  --bg-sunk: #100e0a;
+  --bg-surface: #1d1a14;
+  --bg-raised: #1d1a14;
+  --bg-accent-wash: #2e2716;
+
+  /* hairlines */
+  --line-hairline: #2a261d;
+  --line-rule: #37312450;
+  --line-rule: #383223;
+  --line-strong: #4a4230;
+
+  /* ink */
+  --fg-hi: #f1ece1;
+  --fg: #c4bda e;
+  --fg: #c4bdae;
+  --fg-low: #8a836f;
+
+  /* accent = filament amber */
+  --accent: #d7a24a;
+  --accent-bright: #f0c675;
+  --accent-deep: #a97e34;
+
+  /* semantic poles: teal = same-meter / easy, coral = held-out building / hard */
+  --good: #4bb8a9;
+  --good-soft: #10261f;
+  --amber: #d7a24a;
+  --amber-soft: #2e2716;
+  --bad: #e8795a;
+  --bad-soft: #2e160f;
+
+  --font-display: 'Newsreader', ui-serif, Georgia, 'Times New Roman', serif;
+  --font-text: 'Archivo', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-body: var(--font-text);
+  --font-mono: 'IBM Plex Mono', ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace;
+
+  --fs-display: clamp(2.25rem, 4.6vw, 3.5rem);
+  --fs-h2: clamp(1.55rem, 2.6vw, 2rem);
+  --fs-h3: clamp(1.1rem, 1.5vw, 1.3rem);
+  --fs-lead: clamp(1.05rem, 1.2vw, 1.2rem);
+  --fs-body: 1rem;
+  --fs-sm: 0.9375rem;
+  --fs-meta: 0.8125rem;
+
+  --lh-display: 1.12;
+  --lh-head: 1.15;
+  --lh-tight: 1.4;
+  --lh-body: 1.6;
+
+  --w-display: 500;
+  --w-head: 500;
+  --w-body: 400;
+  --w-emph: 600;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4rem;
+  --space-9: 6rem;
+  --space-10: 8rem;
+
+  --gutter: clamp(1.25rem, 4.5vw, 3.5rem);
+  --section-y: clamp(3.5rem, 8vh, 5rem);
+  --measure: 66ch;
+  --max-text: 42rem;
+  --max-page: 68rem;
+
+  --radius-2: 3px;
+  --dur-base: 200ms;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --dur-base: 1ms;
+  }
+}

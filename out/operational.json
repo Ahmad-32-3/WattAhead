@@ -1,0 +1,130 @@
+{
+  "tolerance_pct": 20,
+  "min_mean_kwh": 5.0,
+  "horizons": {
+    "day_ahead": {
+      "aggregate": {
+        "within20_mean": 63.0,
+        "within20_std": 16.2,
+        "within20_min": 38.5,
+        "cv_rmse_mean": 0.318,
+        "cv_rmse_std": 0.157,
+        "persistence_within20_mean": 73.9,
+        "n_buildings": 7
+      },
+      "per_building": [
+        {
+          "building_id": "Rat_education_Adell",
+          "within20": 79.40079272557706,
+          "cv_rmse": 0.19033341183499305,
+          "persistence_within20": 71.13546281184425,
+          "n": 8578
+        },
+        {
+          "building_id": "Rat_education_Adrian",
+          "within20": 81.61925601750546,
+          "cv_rmse": 0.1912484773838176,
+          "persistence_within20": 77.6114246228262,
+          "n": 8683
+        },
+        {
+          "building_id": "Rat_education_Alfonso",
+          "within20": 50.24193548387097,
+          "cv_rmse": 0.30758184141869316,
+          "persistence_within20": 73.4331797235023,
+          "n": 8680
+        },
+        {
+          "building_id": "Rat_education_Alfred",
+          "within20": 38.517819211706396,
+          "cv_rmse": 0.44008087096182374,
+          "persistence_within20": 78.6051451498702,
+          "n": 8474
+        },
+        {
+          "building_id": "Rat_education_Barney",
+          "within20": 78.72487872487872,
+          "cv_rmse": 0.17720242601594866,
+          "persistence_within20": 66.45876645876646,
+          "n": 8658
+        },
+        {
+          "building_id": "Rat_education_Beverly",
+          "within20": 64.16904625928042,
+          "cv_rmse": 0.28256587540159145,
+          "persistence_within20": 72.10736721873215,
+          "n": 8755
+        },
+        {
+          "building_id": "Rat_education_Brett",
+          "within20": 48.615419970125245,
+          "cv_rmse": 0.6396094855873998,
+          "persistence_within20": 77.86970010341263,
+          "n": 8703
+        }
+      ]
+    },
+    "next_hour": {
+      "aggregate": {
+        "within20_mean": 87.6,
+        "within20_std": 9.7,
+        "within20_min": 75.6,
+        "cv_rmse_mean": 0.132,
+        "cv_rmse_std": 0.054,
+        "persistence_within20_mean": 93.0,
+        "n_buildings": 7
+      },
+      "per_building": [
+        {
+          "building_id": "Rat_education_Adell",
+          "within20": 92.65563068314292,
+          "cv_rmse": 0.11582051759402337,
+          "persistence_within20": 88.36558638377244,
+          "n": 8578
+        },
+        {
+          "building_id": "Rat_education_Adrian",
+          "within20": 98.50282160543591,
+          "cv_rmse": 0.07003093435741775,
+          "persistence_within20": 94.65622480709432,
+          "n": 8683
+        },
+        {
+          "building_id": "Rat_education_Alfonso",
+          "within20": 77.07373271889401,
+          "cv_rmse": 0.15455377943121543,
+          "persistence_within20": 88.91705069124424,
+          "n": 8680
+        },
+        {
+          "building_id": "Rat_education_Alfred",
+          "within20": 75.56053811659193,
+          "cv_rmse": 0.24235631444068506,
+          "persistence_within20": 94.58343167335379,
+          "n": 8474
+        },
+        {
+          "building_id": "Rat_education_Barney",
+          "within20": 98.7063987063987,
+          "cv_rmse": 0.07479008991983346,
+          "persistence_within20": 95.24139524139524,
+          "n": 8658
+        },
+        {
+          "building_id": "Rat_education_Beverly",
+          "within20": 93.07824100513992,
+          "cv_rmse": 0.13403411208661567,
+          "persistence_within20": 92.13021130782411,
+          "n": 8755
+        },
+        {
+          "building_id": "Rat_education_Brett",
+          "within20": 77.61691370791681,
+          "cv_rmse": 0.13185074816707565,
+          "persistence_within20": 97.12742732391129,
+          "n": 8703
+        }
+      ]
+    }
+  }
+}
